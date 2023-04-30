@@ -1,6 +1,6 @@
 import os
 
-from flask import Flask, redirect, url_for, request
+from flask import Flask, request
 from langchain import OpenAI
 from llama_index import PromptHelper, GPTSimpleVectorIndex, LLMPredictor, download_loader
 
