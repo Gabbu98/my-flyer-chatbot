@@ -6,7 +6,7 @@ from llama_index import PromptHelper, GPTSimpleVectorIndex, LLMPredictor, downlo
 
 app = Flask(__name__)
 
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = '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'
 
 SimpleDirectoryReader = download_loader("SimpleDirectoryReader")
 
